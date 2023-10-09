@@ -1,1 +1,42 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constellation & Co.</title>
+  <style>
+    .texture {
+            color: transparent;
+            background-image: url('/print_texture.jpg'); 
+            background-size:640px;
+            background-clip: text;
+            -webkit-background-clip: text; 
+            text-fill-color: transparent; 
+            filter: drop-shadow(0px 4px 1px rgba(255,255,255,1)) drop-shadow(0px -2px 1px rgba(0,0,0,.5));
+}
+
+    .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+    .centered-text {
+            font-size: 66vh;}
+
+body{
+    background-image: url("/paper_texture.jpg");
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    background-color:#EEE;
+}
+  </style>
+</head>
+<body>
+    <div class="container">
+      <div class="centered-text texture">❧</div>
+    </div>
+</body>
+</html>
